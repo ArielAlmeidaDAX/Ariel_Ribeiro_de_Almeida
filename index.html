@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Ribeiro - Perfil Profissional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 60px 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 50px;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .description {
+            color: #777;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 16px;
+        }
+        
+        .linkedin {
+            background: linear-gradient(135deg, #0077b5 0%, #005885 100%);
+        }
+        
+        .linkedin:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 119, 181, 0.4);
+        }
+        
+        .whatsapp {
+            background: linear-gradient(135deg, #25d366 0%, #1ba55d 100%);
+        }
+        
+        .whatsapp:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+        }
+        
+        .instagram {
+            background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+        
+        .instagram:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(224, 148, 51, 0.4);
+        }
+        
+        .icon {
+            font-size: 20px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        @media (max-width: 500px) {
+            .container {
+                padding: 40px 25px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            a {
+                padding: 12px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-pic">👨‍💼</div>
+        
+        <h1>Ariel Ribeiro</h1>
+        <p class="title">Análista de Segurança do Trabalho</p>
+        <p class="description">Profissional dedicado a garantir ambientes de trabalho seguros e saudáveis. Especializado em gestão de riscos e conformé de segurança.</p>
+        
+        <div class="links">
+            <a href="https://linkedin.com/in/seu-perfil" class="linkedin" target="_blank">
+                <span class="icon">💼</span>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://wa.me/seu-numero" class="whatsapp" target="_blank">
+                <span class="icon">💬</span>
+                <span>WhatsApp</span>
+            </a>
+            <a href="https://instagram.com/seu-usuario" class="instagram" target="_blank">
+                <span class="icon">📷</span>
+                <span>Instagram</span>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>Desenvolvido com ❤️ via GitHub Pages</p>
+        </div>
+    </div>
+</body>
+</html>
