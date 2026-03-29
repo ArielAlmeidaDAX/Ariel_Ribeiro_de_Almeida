@@ -112,4 +112,37 @@
         }
 
         .whatsapp {
-            background: linear-gradient(135deg, 
+            background: linear-gradient(135deg,  #25c881 0%, #128c7e 100%);
+    }
+    .linkedin {
+      background: linear-gradient(135deg, #0077b5 0%, #005885 100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="name">Bianca</div>
+      <div class="profession">Designer Gráfico</div>
+    </div>
+    
+    <div class="bio">
+      <p>Criativa, apaixonada por design e inovação. Transformo ideias em realidade visual.</p>
+    </div>
+    
+    <div class="links-section">
+      <a href="https://www.linkedin.com/in/biancaarruda" class="link-button linkedin" target="_blank">
+        <span>💼 LinkedIn</span>
+      </a>
+      
+      <a href="https://www.behance.net/biancaarruda" class="link-button behance" target="_blank">
+        <span>🎨 Behance</span>
+      </a>
+      
+      <a href="https://wa.me/5511999999999" class="link-button whatsapp" target="_blank">
+        <span>💬 WhatsApp</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
